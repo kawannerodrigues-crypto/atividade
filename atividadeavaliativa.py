@@ -1,17 +1,28 @@
-#desafio
+#DESAFIO
+#Crie uma calculadora de elegibilidade para beneficio social como axilio jovem aprendiz
 
-#Crie uma calculadora de Elegibilidada para um benefício social, como o Auxílio Jovem Aprendiz.
+#o progama deve
 
-# O programa deve ter:
-# Coletar dados do usuário
-#Verificar os critérios exigidos
-#informar se a pessoa pode ou não receber o benefício
+# coletar dados do usuario
+# verificar criterios exigidos
+# informar se a pessoa pode ou nao receber o beneficio
+# Coletando dados do usuário
+print("=== Cadastro de Usuário ===")
 
+nome = input("Nome: ")
+idade = int(input("Idade: "))
+cidade = input("Cidade: ")
+renda_mensal = float(input("Renda mensal: R$ "))
+status = input("Status [estudante/trabalhador/ambos]: ")
 
-nome = input("Digite seu nome:")
-idade =int (input("digite sua idade:"))
-cidade = input("Digite sua cidade:")
-renda_mensal = (input("digite sua renda mensal:"))
-status= input("Digite seu status(estudante, trabalhador ou ambos):")
+# Lista de cidades permitidas
+cidades_validas = ["São Paulo", "Campinas", "Salvador", "Recife"]
+
+# Lista de status válidos (estudante ou ambos)
+status_validos = ["estudante", "ambos"]
+
+# Estrutura condicional (if) para verificar a elegibilidade
+if (14 <= idade <= 24) and (cidade in cid…)
+
 
 
